@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//TestData/King.xml=UTF-8
+encoding//src/CommonMethod/ExtentReport.java=UTF-8
+encoding//src/CommonMethod/Give.java=UTF-8
+encoding//src/CommonOperation/Login.java=UTF-8
+encoding//src/CommonOperation/Visit.java=UTF-8
+encoding//src/TestCases/PPM_Mobile_Series_B.java=UTF-8
+encoding//src/TestMethod/LoginTest.java=UTF-8
+encoding//src/com/dafycredit/giveu/test/util/ConfigUtil.java=UTF-8
+encoding//src/common.properties=UTF-8
+encoding//src/jdbc.properties=UTF-8
+encoding//src/log4j.properties=UTF-8

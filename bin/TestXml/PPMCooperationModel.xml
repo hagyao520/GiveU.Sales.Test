@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PPM合作模式" parallel="false" configfailurepolicy ="continue">
+    <test name="购买系列B手机" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="60000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
+        <classes>
+            <class name="TestCases.TestUnitDemo"/>
+                <methods>
+                    <exclude name="case0" />
+                    <include name="case1" />
+                    <include name="case2" />
+                    <include name="case3" /> 
+                    <include name="case4" /> 
+                    <include name="case5" /> 
+                    <include name="case6" /> 
+                    <include name="case7" /> 
+                    <include name="case8" /> 
+                    <include name="case9" /> 
+                    <include name="case_10" /> 
+                    <include name="case_11" /> 
+                    <include name="case_12" /> 
+                    <include name="case_13" /> 
+                    <include name="case_14" /> 
+                    <include name="case_15" /> 
+                    <include name="case_16" /> 
+                    <exclude name="" />
+                </methods>
+        </classes>
+    </test>
+    ------------------------------------------------------------------------------------------------------  
+    <!--<test name="购买系列A手机">
+        <classes>
+            <class name="TestCases.PPM_Mobile_Series_B"/>
+                <methods>
+                    <include name="Case1" />
+                    <include name="Case2" />
+                    <exclude name="" />
+                </methods>
+        </classes>
+    </test>  -->
+    ------------------------------------------------------------------------------------------------------    
+    <!-- 调用的监听 -->    
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>      
+</suite>

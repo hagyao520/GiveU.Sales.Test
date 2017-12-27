@@ -1,0 +1,18 @@
+<project name="Test" basedir=".">
+    <property name="Libs.dir" value="Libs"/>
+    <path id="test.classpath">
+         <!-- adding the saxon jar to your classpath -->
+        <fileset dir="${Libs.dir}" includes="*/TestngReport/*.jar"/>
+    </path>
+    <!-- Project-Properties-TestNG-Pr Defined Liserners-(org.testng.reporters.EmailableReporter2,org.testng.reporters.jq.Main,org.testng.reporters.SuiteHTMLReporter,org.testng.reporters.XMLReporter,org.testng.reporters.JUnitReportReporter) -->
+    <target name="transform">
+        <xslt in="D:/King/Eclipse/GiveU.Sales/GiveU.Sales.Test.Newframework/TestOutput/TestngReport/testng-results.xml"
+              style="D:/King/Eclipse/GiveU.Sales/GiveU.Sales.Test.Newframework/TestOutput/TestngReport/testng-results.xsl"
+              out="D:/King/Eclipse/GiveU.Sales/GiveU.Sales.Test.Newframework/TestOutput/TestngReport/indexDecorate.html">
+             <!-- you need to specify the directory here again -->
+            <param name="testNgXslt.outputDir"
+                   expression="D:/King/Eclipse/GiveU.Sales/GiveU.Sales.Test.Newframework/TestOutput/TestngReport"/>
+            <classpath refid="test.classpath"/>
+        </xslt>
+    </target>
+</project>

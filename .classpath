@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="Libs/DataBase/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="Libs/Excel/jxl.jar"/>
+	<classpathentry kind="lib" path="Libs/Selenium/testng-6.8.7.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/ExtentReport/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/ExtentReport/extentreports-3.0.6.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/ExtentReport/extentreports-java-2.41.1.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/ExtentReport/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/ExtentReport/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/ExtentReport/mongo-java-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/TestngReport/reportng-1.1.5.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/TestngReport/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="Libs/TestReport/TestngReport/velocity-1.7-dep.jar"/>
+	<classpathentry kind="lib" path="Libs/Log4j/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="Libs/Log4j/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="Libs/Log4j/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="lib" path="Libs/Selenium/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
